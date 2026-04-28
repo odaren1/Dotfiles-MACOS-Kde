@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="folderPath" type="String">
+      <label>Folder path</label>
+      <default>~/Downloads</default>
+      <whatsthis>Path to the folder to display. Use ~ for home directory (e.g., ~/Downloads). Default: ~/Downloads</whatsthis>
+    </entry>
+    <entry name="maxItems" type="Int">
+      <label>Maximum items to display</label>
+      <default>10</default>
+      <min>1</min>
+      <max>50</max>
+      <whatsthis>Maximum number of items to display in the list</whatsthis>
+    </entry>
+    <entry name="rotationStep" type="Int">
+      <label>Rotation step (degrees)</label>
+      <default>2</default>
+      <min>0</min>
+      <max>10</max>
+      <whatsthis>Rotation step in degrees for each item (progressive rotation)</whatsthis>
+    </entry>
+    <entry name="offset" type="Int">
+      <label>Offset</label>
+      <default>-100</default>
+      <min>-500</min>
+      <max>500</max>
+      <whatsthis>Offset for indentation calculation</whatsthis>
+    </entry>
+    <entry name="iconSize" type="Int">
+      <label>Icon size</label>
+      <default>65</default>
+      <min>20</min>
+      <max>200</max>
+      <whatsthis>Size of icons in the item list</whatsthis>
+    </entry>
+    <entry name="indentStep" type="Int">
+      <label>Indent step</label>
+      <default>10</default>
+      <min>0</min>
+      <max>50</max>
+      <whatsthis>Progressive indentation step in pixels for each item</whatsthis>
+    </entry>
+  </group>
+
+</kcfg>
+

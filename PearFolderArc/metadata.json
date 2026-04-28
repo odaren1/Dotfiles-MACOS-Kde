@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "alex@pear-software.com",
+                "Name": "Alexandru Balan"
+            }
+        ],
+        "Category": "File System",
+        "Description": "pearOS folder arc",
+        "Icon": "folder-download",
+        "Id": "PearFolderArc",
+        "License": "GPL-2.0+",
+        "Name": "PearFolderArc",
+        "Version": "1.0",
+        "Website": "https://pearos.xyz"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
+
