@@ -1,0 +1,25 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "alex@pear-software.com",
+                "Name": "Alexandru Balan"
+            }
+        ],
+        "Name": "PearClock",
+        "Id": "PearClock",
+        "Description": "A clock plasmoid that displays date and time with customizable formats",
+        "Category": "Date and Time",
+        "Icon": "clock",
+        "EnabledByDefault": true,
+        "License": "GPL-3.0+",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "https://pearos.xyz"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
+

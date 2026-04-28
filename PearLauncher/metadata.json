@@ -1,0 +1,28 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "alex@pear-software.com",
+                "Name": "Alexandru Balan"
+            },
+            {
+                "Email": "eliverlara@gmail.com",
+                "Name": "EliverLara"
+            }
+            
+        ],
+        "Category": "Application Launchers",
+        "Description": "A modern Launcher for pearOS",
+        "EnabledByDefault": true,
+        "Icon": "/usr/share/extras/launchpad.svg",
+        "Id": "PearLauncher",
+        "Name": "Pear Launcher",
+
+        "Version": "0.1",
+        "Website": "https://peaos.xyz",
+        "License": "GPL-3.0"
+    },
+    "X-Plasma-Provides": [ "org.kde.plasma.launchermenu" ],
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
