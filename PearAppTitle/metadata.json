@@ -1,0 +1,25 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "alex@pear-software.com",
+                "Name": "Alexandru Balan"
+            },
+            {
+                "Email": "dhruv8sh@proton.me",
+                "Name": "Dhruvesh Surolia"
+            }
+        ],
+        "Category": "Windows and Tasks",
+        "Description": "Shows the application title and icon of the active window",
+        "Icon": "preferences-desktop",
+        "Id": "PearAppTitle",
+        "License": "GPLv2",
+        "Name": "Pear App Title",
+        "Version": "26.1",
+        "Website": "https://pearos.xyz"
+    },
+    "Keyword": "window title icon",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
